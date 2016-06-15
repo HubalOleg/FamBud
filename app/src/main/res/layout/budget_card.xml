@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/procedure_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/cardBackground">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Name: "/>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_toRightOf="@id/tv_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Name: "/>
+
+            <TextView
+                android:id="@+id/tv_card_age"
+                android:layout_below="@id/tv_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Age: "/>
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_toRightOf="@id/tv_card_age"
+                android:layout_below="@id/tv_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Age: "/>
+
+            <TextView
+                android:id="@+id/tv_card_date"
+                android:layout_below="@id/tv_card_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Date: "/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_toRightOf="@id/tv_card_date"
+                android:layout_below="@id/tv_card_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="date: "/>
+
+            <TextView
+                android:id="@+id/tv_card_value"
+                android:layout_below="@id/tv_card_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Value: "/>
+
+            <TextView
+                android:id="@+id/tv_value"
+                android:layout_toRightOf="@id/tv_card_value"
+                android:layout_below="@id/tv_card_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="value: "/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
